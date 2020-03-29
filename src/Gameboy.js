@@ -29,11 +29,11 @@ function Gameboy() {
           </div> */}
         </div>
         <div className="a-button-container">
-          <div className="a-button button"></div>
+          <div className="a-button button">A</div>
           <div className="button-letter">A</div>
         </div>
         <div className="b-button-container">
-          <div className="b-button button"></div>
+          <div className="b-button button">B</div>
           <div className="button-letter">B</div>
         </div>
       </div>
@@ -46,6 +46,23 @@ function Gameboy() {
           <div className="setting-button button"></div>
           <div className="setting-button-lettering">Start</div>
         </div>
+      </div>
+      <div className="speaker-container">
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
+        <div className="speaker"></div>
       </div>
     </div>
   );
