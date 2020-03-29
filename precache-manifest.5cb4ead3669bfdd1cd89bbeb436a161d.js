@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aab25b410a65571caa69df8f9707f040",
+    "revision": "cd5fbc9798aa7205c81f5d2eb5063b8a",
     "url": "/sashtendo/index.html"
   },
   {
-    "revision": "d217b2bc8ea3b8bdf36b",
-    "url": "/sashtendo/static/css/main.94a5f72e.chunk.css"
+    "revision": "14a2615c1b45b55b262a",
+    "url": "/sashtendo/static/css/main.0bdcbc2d.chunk.css"
   },
   {
     "revision": "fa65b566a0d55ea5838e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sashtendo/static/js/2.679b8f53.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d217b2bc8ea3b8bdf36b",
-    "url": "/sashtendo/static/js/main.1a60fb97.chunk.js"
+    "revision": "14a2615c1b45b55b262a",
+    "url": "/sashtendo/static/js/main.14a5433d.chunk.js"
   },
   {
     "revision": "35d7688ed087813b5553",
