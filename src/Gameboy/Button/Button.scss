@@ -1,0 +1,32 @@
+$buttonInsideShadow: inset 0px 2px 3px 4px rgba(93,95,97,.70);
+$buttonOutsideShadow: 0px -2px 3px 4px rgba(227,144,54,1);
+$buttonSize: 60px;
+
+.button-base {
+  height: $buttonSize;
+  width: $buttonSize;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.button-up {
+  background-color: #282c34;
+  color: #282c34;
+  text-shadow: 0px 3px 3px #171717;
+  box-shadow: $buttonInsideShadow, $buttonOutsideShadow;
+}
+
+$buttonPressedInsideShadow: inset 0px -1px 3px 4px rgba(93,95,97,.4);
+$buttonPressedOutsideShadow: 0px -2px 3px 4px rgba(227,144,54,1);
+
+.button-pressed {
+  background-color: #151515;
+  color: #151515;
+  text-shadow: 0px 3px 3px rgba(93,95,97,.4);
+  box-shadow: $buttonPressedInsideShadow, $buttonPressedOutsideShadow;
+}

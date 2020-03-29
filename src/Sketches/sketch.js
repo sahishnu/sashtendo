@@ -1,7 +1,7 @@
 export default function sketch(p){
   let canvas;
   const resolution = 5;
-  const size = 325;
+  const size = 375;
   const frameRate = 10;
   const minPos = resolution;
   const maxPos = size/resolution - resolution;
@@ -96,6 +96,9 @@ export default function sketch(p){
       console.log('right');
       // posX = posX + resolution;
       vel.set(1, 0);
+    }
+    if (p.keyCode === p.ESCAPE) {
+      reset();
     }
   }
 

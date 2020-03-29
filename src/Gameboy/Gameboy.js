@@ -1,9 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import P5Wrapper from 'react-p5-wrapper';
-import sketch from './sketch';
+import sketch from '../Sketches/sketch';
+import Button from './Button/Button';
 import './Gameboy.scss';
 
-function Gameboy() {
+const Gameboy = () => {
+
+  const [ aButtonDown, setAButtonDown ] = useState(false);
+  const [ bButtonDown, setBButtonDown ] = useState(false);
+
+  const handleButtonDown = (button) => {
+    if (button === 'a') {
+      setAButtonDown(true);
+      console.log(button, 'down');
+    }
+  }
+
+  const handleButtonUp = (button) => {
+    if (button === 'a') {
+      // setAButtonDown(false);
+      console.log(button, 'up');
+
+    }
+  }
   return (
     <div className="Gameboy">
       <div className="screen-container">
@@ -29,11 +48,11 @@ function Gameboy() {
           </div> */}
         </div>
         <div className="a-button-container">
-          <div className="a-button button">A</div>
+          <Button button={'a'} />
           <div className="button-letter">A</div>
         </div>
         <div className="b-button-container">
-          <div className="b-button button">B</div>
+          <Button button={'b'} />
           <div className="button-letter">B</div>
         </div>
       </div>
