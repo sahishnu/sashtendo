@@ -18,9 +18,9 @@ function Gameboy() {
           <span className="screen-title-main">Sashtendo</span><span className="screen-title-sub">beta</span>
         </div>
       </div>
-      {/* <div className="etching">
+      <div className="etching">
         @sahishnu
-      </div> */}
+      </div>
       <div className="controls-row">
         <div className="d-pad-container button">
           {/* <div className="d-pad">
