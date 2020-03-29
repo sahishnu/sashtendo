@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/sashtendo/static/css/main.0d90a144.chunk.css",
-    "main.js": "/sashtendo/static/js/main.448902f2.chunk.js",
-    "main.js.map": "/sashtendo/static/js/main.448902f2.chunk.js.map",
+    "main.css": "/sashtendo/static/css/main.7e21c1c1.chunk.css",
+    "main.js": "/sashtendo/static/js/main.93c6e804.chunk.js",
+    "main.js.map": "/sashtendo/static/js/main.93c6e804.chunk.js.map",
     "runtime-main.js": "/sashtendo/static/js/runtime-main.68cecc06.js",
     "runtime-main.js.map": "/sashtendo/static/js/runtime-main.68cecc06.js.map",
-    "static/js/2.679b8f53.chunk.js": "/sashtendo/static/js/2.679b8f53.chunk.js",
-    "static/js/2.679b8f53.chunk.js.map": "/sashtendo/static/js/2.679b8f53.chunk.js.map",
+    "static/js/2.333f5d01.chunk.js": "/sashtendo/static/js/2.333f5d01.chunk.js",
+    "static/js/2.333f5d01.chunk.js.map": "/sashtendo/static/js/2.333f5d01.chunk.js.map",
     "index.html": "/sashtendo/index.html",
-    "precache-manifest.37a98594077ca81ce38c96c218b812f2.js": "/sashtendo/precache-manifest.37a98594077ca81ce38c96c218b812f2.js",
+    "precache-manifest.7c89f17daf58d331e0186a8c4242c55b.js": "/sashtendo/precache-manifest.7c89f17daf58d331e0186a8c4242c55b.js",
     "service-worker.js": "/sashtendo/service-worker.js",
-    "static/css/main.0d90a144.chunk.css.map": "/sashtendo/static/css/main.0d90a144.chunk.css.map",
-    "static/js/2.679b8f53.chunk.js.LICENSE.txt": "/sashtendo/static/js/2.679b8f53.chunk.js.LICENSE.txt"
+    "static/css/main.7e21c1c1.chunk.css.map": "/sashtendo/static/css/main.7e21c1c1.chunk.css.map",
+    "static/js/2.333f5d01.chunk.js.LICENSE.txt": "/sashtendo/static/js/2.333f5d01.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.68cecc06.js",
-    "static/js/2.679b8f53.chunk.js",
-    "static/css/main.0d90a144.chunk.css",
-    "static/js/main.448902f2.chunk.js"
+    "static/js/2.333f5d01.chunk.js",
+    "static/css/main.7e21c1c1.chunk.css",
+    "static/js/main.93c6e804.chunk.js"
   ]
 }
