@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sashtendo/precache-manifest.7c89f17daf58d331e0186a8c4242c55b.js"
+  "/sashtendo/precache-manifest.a1daca2b114767cf5b92a66a97a29baa.js"
 );
 
 self.addEventListener('message', (event) => {
