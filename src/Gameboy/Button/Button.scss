@@ -3,9 +3,6 @@ $buttonOutsideShadow: 0px -2px 3px 4px rgba(227,144,54,1);
 $buttonSize: 60px;
 
 .button-base {
-  height: $buttonSize;
-  width: $buttonSize;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;

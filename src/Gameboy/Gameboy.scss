@@ -126,29 +126,19 @@ $buttonInsideShadow: inset 0px 2px 3px 4px rgba(93,95,97,.70);
 $buttonOutsideShadow: 0px -2px 3px 4px rgba(227,144,54,1);
 
 .d-pad-container {
-  height: 125px;
-  width: 125px;
+  height: 160px;
+  width: 160px;
   position: absolute;
-  border-radius: 50%;
-  box-shadow: $buttonInsideShadow;
+  margin-top: -1rem;
   left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  .d-pad {
-    position: relative;
-
-    .d-pad-horizontal {
-      position: absolute;
-      height: 20px;
-      width: 60px;
-      top: 15px;
-    }
-
-    .d-pad-vertical {
-      position: absolute;
-      height: 60px;
-      width: 20px;
-      left: 15px;
-    }
+  .d-pad-horizontal-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 
 }

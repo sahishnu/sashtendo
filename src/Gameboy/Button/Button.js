@@ -4,10 +4,19 @@ import './Button.scss';
 const Button = (props) => {
   const {
     button,
-    onClick
+    onClick,
+    round = false,
+    height = '60px',
+    width = '60px'
   } = props;
 
   const [ buttonDown, setButtonDown ] = useState(false);
+
+  const styles = {
+    borderRadius: round? '50%' : '6px',
+    height,
+    width
+  }
 
   const handleButtonDown = () => {
     setButtonDown(true);
@@ -20,6 +29,7 @@ const Button = (props) => {
   return (
     <div
       className={`button-base ${buttonDown ? 'button-pressed' : 'button-up' }`}
+      style={styles}
       onMouseDown={() => handleButtonDown()}
       onMouseUp={() => handleButtonUp()}
     >

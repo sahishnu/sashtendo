@@ -1,28 +1,11 @@
 import React, { useState } from 'react';
 import P5Wrapper from 'react-p5-wrapper';
 import sketch from '../Sketches/sketch';
-import Button from './Button/Button';
+import Button from './RoundButton/Button';
 import './Gameboy.scss';
 
 const Gameboy = () => {
 
-  const [ aButtonDown, setAButtonDown ] = useState(false);
-  const [ bButtonDown, setBButtonDown ] = useState(false);
-
-  const handleButtonDown = (button) => {
-    if (button === 'a') {
-      setAButtonDown(true);
-      console.log(button, 'down');
-    }
-  }
-
-  const handleButtonUp = (button) => {
-    if (button === 'a') {
-      // setAButtonDown(false);
-      console.log(button, 'up');
-
-    }
-  }
   return (
     <div className="Gameboy">
       <div className="screen-container">
@@ -41,18 +24,24 @@ const Gameboy = () => {
         @sahishnu
       </div>
       <div className="controls-row">
-        <div className="d-pad-container button">
+        <div className="d-pad-container">
+          <Button button={'w'} height={'55px'} width={'40px'} />
+          <div className="d-pad-horizontal-row">
+          <Button button={'a'} height={'40px'} width={'55px'} />
+          <Button button={'s'} height={'40px'} width={'55px'} />
+          </div>
+          <Button button={'d'} height={'55px'} width={'40px'} />
           {/* <div className="d-pad">
             <div className="d-pad-horizontal button"></div>
             <div className="d-pad-vertical button"></div>
           </div> */}
         </div>
         <div className="a-button-container">
-          <Button button={'a'} />
+          <Button button={'a'} round />
           <div className="button-letter">A</div>
         </div>
         <div className="b-button-container">
-          <Button button={'b'} />
+          <Button button={'b'} round />
           <div className="button-letter">B</div>
         </div>
       </div>
